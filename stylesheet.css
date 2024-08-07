@@ -1,0 +1,43 @@
+/* Apply styles to all <p> tags */
+p {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Class to style the .intro elements */
+.intro {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* ID to style the #section1 element */
+#section1 {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* ID to style the #section2 element */
+#section2 {
+    background-color: #e9e9e9;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Style the <a> tag to change color on hover */
+a.external-link {
+    color: blue;
+    text-decoration: none;
+}
+
+a.external-link:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Box model properties */
+img {
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 20px;
+}
